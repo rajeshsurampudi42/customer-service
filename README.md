@@ -5,7 +5,9 @@ prerequisite
 1) postgres.
 you can download from https://www.postgresql.org/download/windows/
 
-      port should be 5432
+      port should be 5432 --- these all are set for time being
+      
+      password should be "rajesh42"  --- these all are set for time being
 
       connect to db using "psql -h localhost -d customers -U postgres -p 5432"
  
