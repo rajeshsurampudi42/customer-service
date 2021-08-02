@@ -2,7 +2,7 @@
 
 prerequisite
 
-1) postgres
+1) postgres.
 you can download from https://www.postgresql.org/download/windows/
 
 
