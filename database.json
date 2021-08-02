@@ -1,0 +1,13 @@
+
+  {
+    "dev": {
+      "host": "localhost",
+      "user": "postgres" ,
+      "password" : "rajesh42" ,
+      "port": "5432",
+      "database": "customers",
+      "driver": "postgres",
+      "multipleStatements": true
+    },
+    "others": "postgres://postgres:rajesh42@localhost:5432/customers"
+  }

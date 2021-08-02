@@ -1,0 +1,4 @@
+
+  {
+    "others": 'postgresql://postgres:rajesh42@localhost:5432/customers'
+  }

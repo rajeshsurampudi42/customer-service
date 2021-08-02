@@ -1,0 +1,29 @@
+{
+    "logLevel": "info",
+    "expressLoggingBlacklist": [
+    ],
+    "express": {
+      "host": "0.0.0.0",
+      "port": "15301"
+    },
+    "nodeConfig": {
+      "args": "",
+      "DOC_commonArgList": "--prof --max-old-space-size=2048 --inspect"
+    },
+    "postgres": {
+      "host": "localhost",
+      "port": "5432",
+      "user": "postgres",
+      "pass": "rajesh42",
+      "name": "customers",
+      "options": "",
+      "maintenanceDbName": "postgres",
+      "rollbackAllTransactions": false,
+      "pgpool": {
+        "max": 10,
+        "min": 4,
+        "idleTimeoutMillis": 60000
+      }
+    }
+  }
+  
