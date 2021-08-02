@@ -21,3 +21,4 @@ Usage
 1) run npm install
 2) npm start
 3) to add new migrations run "npm run db:migrate:create -- <<your migration patch name>> --sql-file"
+4) Access swagger ui at "http://localhost:15301/docs/"
